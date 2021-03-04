@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/principal.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12">
 			<div class="jumbotron cont">
@@ -36,17 +36,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-4">
-				<h3>Título</h3>
-				<img src="<?php echo base_url()?>/assets/imagens/teste.jpg" alt="" class="img-fluid">
+		<div class="row imagens">
+			<div class="col-6">
+				<h3>Idade Antiga</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/1.jpg" alt="" class="img-fluid">
 				<p>lalalalalalalalal</p>
 			</div>
 		
-			<div class="col-4">
-				<h3>Título</h3>
-				<img src="<?php echo base_url()?>/assets/imagens/teste.jpg" alt="" class="img-fluid">
+			<div class="col-6">
+				<h3>Idade Média</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/2.jpg" alt="" class="img-fluid">
 				<p>lalalalalalalalal</p>
+			</div>
+
+			<div class="col-6">
+				<h3>Idade Moderna</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/3.jpg" alt="" class="img-fluid">
+				<p>lalalalalalalalal</p>
+			</div>
+
+			<div class="col-6">
+				<h3>Idade Contemporânea</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/4.jpg" alt="" class="img-fluid">
+				<p>lalalalalalalalal</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 rodape">
+				<p>teste</p>
 			</div>
 		</div>
 	</div>

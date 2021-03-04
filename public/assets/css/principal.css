@@ -1,4 +1,16 @@
 .cont{
 	margin-top: 20px;
 }
-
+.rodape{
+	min-height: 100px;
+	width: 100%;
+	background-color:#e9ecef;
+	text-align: center;
+	font-size: large;
+}
+.rodape p{
+	padding-top: 40px;
+} 
+.imagens{
+	align-items: center;
+}
