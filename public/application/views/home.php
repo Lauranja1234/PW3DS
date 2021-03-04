@@ -15,8 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="row">
 			<div class="col-12">
 			<div class="jumbotron cont">
-				<h1 class="display-4">Seja bem-vindo!</h1>
-				<p class="lead">Último ano de ETEC! (aprendendo PHP usando framework)</p>
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">Último ano de ETEC! (PHP usando framework)</p>
 				<hr class="my-4">
 			</div>
 			</div>
@@ -32,8 +32,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Logout</a>
-					</li>
+					</li> 
 				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<h3>Título</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/teste.jpg" alt="" class="img-fluid">
+				<p>lalalalalalalalal</p>
+			</div>
+		
+			<div class="col-4">
+				<h3>Título</h3>
+				<img src="<?php echo base_url()?>/assets/imagens/teste.jpg" alt="" class="img-fluid">
+				<p>lalalalalalalalal</p>
 			</div>
 		</div>
 	</div>
