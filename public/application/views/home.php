@@ -1,41 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-	<meta charset="UTF-8">
-	<title>Site PW3</title>
-	<link rel="stylesheet" href="<?php echo base_url()?>assets/reset.css">
-	<link rel="stylesheet" href="<?php echo base_url()?>assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/principal.css">
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-			<div class="jumbotron cont">
-				<h1 class="display-4">Hello, world!</h1>
-				<p class="lead">Último ano de ETEC! (PHP usando framework)</p>
-				<hr class="my-4">
-			</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<ul class="nav">
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Config</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Logout</a>
-					</li> 
-				</ul>
-			</div>
-		</div>
+
+	<main>
 		<div class="row">
 			<div class="col-3">
 				<h3>Idade Antiga</h3>
@@ -61,12 +28,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<p>A Revolução Francesa, que ocorreu no ano de 1789, é o evento que, segundo alguns autores, inaugura a chamada Idade Contemporânea. Os historiadores do século XIX, que fizeram a linha divisória da História, imputaram a este acontecimento o caráter de marco divisor entre a Idade Moderna e a Contemporânea, por conta da radicalização política que o caracterizou.</p> <br></br>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 rodape">
-				<p>História (do grego antigo ἱστορία, transl.: historía, que significa "pesquisa", "conhecimento advindo da investigação")[1] é a ciência que estuda o ser humano e sua ação no tempo e no espaço concomitantemente à análise de processos e eventos ocorridos no passado. O termo "História" também pode significar toda a informação do passado arquivada em todas as línguas por todo o mundo, por intermédio de registos históricos.</p>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
-
+	</main>
